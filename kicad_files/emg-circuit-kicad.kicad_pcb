@@ -134,9 +134,9 @@
 		(uuid "04d4fc40-48fa-4c47-8b9c-af7c1204fd0f")
 		(at 113.1 93.605)
 		(property "Reference" "J8"
-			(at 3.251295 -6.802185 0)
+			(at -2.85 3.5 0)
 			(layer "F.SilkS")
-			(uuid "302f926f-4b73-42b1-95cc-eece0d12070e")
+			(uuid "cb295b5a-a964-4595-8920-94c9af86ca3c")
 			(effects
 				(font
 					(size 1.402717 1.402717)
@@ -147,7 +147,7 @@
 		(property "Value" "SJ1-3533"
 			(at 9.48158 5.997585 0)
 			(layer "F.Fab")
-			(uuid "34781475-780b-4aa5-b283-b3608a9e6773")
+			(uuid "5a102116-d4b8-4ded-beb7-652cea77f5bf")
 			(effects
 				(font
 					(size 1.402008 1.402008)
@@ -159,7 +159,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46099767-4ae8-49ad-853f-376f4021fd1c")
+			(uuid "fa5056b9-61c8-42e7-a268-c545084699f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,7 +170,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "76a3d4f8-f18a-4362-9156-7afece43e387")
+			(uuid "f5cfd0ba-48bf-4e5a-a8fc-05ed80c6dc45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,12 +310,6 @@
 		(path "/d2aafe87-b402-44bf-8ef8-f0c67f8efaf9")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -613,15 +607,15 @@
 			(uuid "e14d97c2-8bb5-476d-9414-39e5c7da7448")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/components/SJ1-3533--3DModel-STEP-1.STEP"
+		(model "/home/rodri/Desktop/emg-circuit-kicad/components/SJ1-3533--3DModel-STEP-1.STEP"
 			(offset
-				(xyz -1 1 6.5)
+				(xyz -1 1 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 180 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -691,12 +685,6 @@
 		(path "/e9b67d56-8b79-4842-9de4-872571d875f4")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -882,12 +870,6 @@
 		(path "/1060571b-3083-47d0-93c7-2d85e76fb3c3")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1073,12 +1055,6 @@
 		(path "/447ec8c1-fbb1-4f20-8af0-7432462095ca")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1264,12 +1240,6 @@
 		(path "/c64d9372-b90b-4908-a9d6-d9f8deeb65f0")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1394,9 +1364,9 @@
 		(uuid "26ef90b4-047f-4a93-8f0d-13f46c8c110c")
 		(at 113.1 107.4075)
 		(property "Reference" "J9"
-			(at 3.251295 -6.802185 0)
+			(at -2.85 3.5 0)
 			(layer "F.SilkS")
-			(uuid "fe85496a-43ab-41e2-80a9-9a1a8fbec19b")
+			(uuid "7cf99583-d021-4af3-8cb2-b70f287e1b1d")
 			(effects
 				(font
 					(size 1.402717 1.402717)
@@ -1407,7 +1377,7 @@
 		(property "Value" "SJ1-3533"
 			(at 9.48158 5.997585 0)
 			(layer "F.Fab")
-			(uuid "f88c7c4d-adc6-4bf4-8b9f-c0d2215a33a7")
+			(uuid "031b4725-4b2d-43cf-b4c8-8beb224b18d8")
 			(effects
 				(font
 					(size 1.402008 1.402008)
@@ -1419,7 +1389,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acac7fcc-4fab-4a0a-9ef2-09a3ced7c327")
+			(uuid "0c6f1102-57b0-44fa-b61c-c42e75584e36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,7 +1400,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a8d83d3-2f3e-4af7-809f-aa1f45a65f99")
+			(uuid "1000a2a1-eb8d-4fab-9c90-ca54f3290120")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,12 +1540,6 @@
 		(path "/aeaf2a02-6590-411c-8aed-e9c398c4719e")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1873,15 +1837,15 @@
 			(uuid "7d4e1491-a1ed-4bfe-b71b-0aed5d918cab")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/components/SJ1-3533--3DModel-STEP-1.STEP"
+		(model "/home/rodri/Desktop/emg-circuit-kicad/components/SJ1-3533--3DModel-STEP-1.STEP"
 			(offset
-				(xyz -1 1 6.5)
+				(xyz -1 1 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 180 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -1951,12 +1915,6 @@
 		(path "/59840284-fbf2-4872-b515-67c8d056cac7")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3483,12 +3441,6 @@
 		(path "/f7d64523-bb43-42dd-8416-014b6f195f7b")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3618,7 +3570,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b1353a05-68dd-48b2-8ffe-a13291e4346f")
+			(uuid "0d16d227-7d82-4f5c-838d-93372952e9db")
 			(effects
 				(font
 					(size 1 1)
@@ -3631,7 +3583,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "539d690d-f603-4d1f-97b3-b7112d8bf870")
+			(uuid "e0399478-1390-414f-b15a-6f4e5778faea")
 			(effects
 				(font
 					(size 1 1)
@@ -3644,7 +3596,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c963753e-e94b-4c88-a4af-b3114945669e")
+			(uuid "16ce464c-44b8-4867-b7a4-c5d8ad18cd4f")
 			(effects
 				(font
 					(size 1 1)
@@ -3657,7 +3609,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80033b14-b839-4f1a-9de6-b3f25344631f")
+			(uuid "6ad80af1-1214-45c5-a985-4f2404da755b")
 			(effects
 				(font
 					(size 1 1)
@@ -3668,12 +3620,6 @@
 		(path "/ecb8e024-a960-42db-97c8-7cfcdd0420ca")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -71726,7 +71672,7 @@
 			)
 		)
 		(embedded_fonts yes)
-		(model "${KIPRJMOD}/components/xl6009_DCDC_Boost_V1.step"
+		(model "/home/rodri/Desktop/emg-circuit-kicad/components/xl6009_DCDC_Boost_V1.step"
 			(offset
 				(xyz -1.5 0.5 1)
 			)
@@ -71804,12 +71750,6 @@
 		(path "/5906ebba-d2eb-4211-9122-a9ba8f1fe1ad")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -71995,12 +71935,6 @@
 		(path "/da1a3a56-85a9-4fcc-b0b1-78aab83a4864")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72186,12 +72120,6 @@
 		(path "/eff77dff-c7a2-4fc8-a6ad-66834087c063")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72377,12 +72305,6 @@
 		(path "/dcf92f19-31ad-4531-a16b-12513a4eb647")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72568,12 +72490,6 @@
 		(path "/93f857f0-3b78-443b-a953-7d6783330012")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72759,12 +72675,6 @@
 		(path "/6e0177cc-5f65-45ce-a22f-e556cab37400")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72950,12 +72860,6 @@
 		(path "/773df609-2903-4dab-a880-716bf1ff5c1e")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -74482,12 +74386,6 @@
 		(path "/8281d3c9-be65-439f-aa1c-3ca60676b99b")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -75953,9 +75851,9 @@
 		(uuid "637bcc53-5e3e-4244-9cd0-6ee91f9fd5f9")
 		(at 113.1 66)
 		(property "Reference" "J6"
-			(at 3.251295 -6.802185 0)
+			(at -2.85 3.5 0)
 			(layer "F.SilkS")
-			(uuid "d4151848-b5f1-4298-8f93-72ec41d2f38e")
+			(uuid "a765842b-1bc4-475a-a55a-f78c4e07f291")
 			(effects
 				(font
 					(size 1.402717 1.402717)
@@ -75966,7 +75864,7 @@
 		(property "Value" "SJ1-3533"
 			(at 9.48158 5.997585 0)
 			(layer "F.Fab")
-			(uuid "11a0d959-9d49-405f-873b-559bc5a2909d")
+			(uuid "db399566-0d31-47e6-92ef-5dd433f42f9f")
 			(effects
 				(font
 					(size 1.402008 1.402008)
@@ -75978,7 +75876,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6b8163e-571a-4384-98aa-086364b3dfed")
+			(uuid "1599a08a-e7f5-4ecd-8139-f0aaa2a4e3cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75989,7 +75887,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "275c9f4d-8113-40b1-aaa4-fe8f698c5085")
+			(uuid "bbe25736-259e-4312-98bc-f5e439506bef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76129,12 +76027,6 @@
 		(path "/58f505a2-6f57-4112-b14d-7ef1d61e918f")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -76432,15 +76324,15 @@
 			(uuid "357b261b-be91-4817-b27d-a0eb6c43f13e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/components/SJ1-3533--3DModel-STEP-1.STEP"
+		(model "/home/rodri/Desktop/emg-circuit-kicad/components/SJ1-3533--3DModel-STEP-1.STEP"
 			(offset
-				(xyz -1 1 6.5)
+				(xyz -1 1 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 180 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -76510,12 +76402,6 @@
 		(path "/6bdf9e13-60cc-4eb5-b63a-f359577acc96")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -76777,12 +76663,6 @@
 		(path "/e9df7080-b983-4819-9f19-d49b9d65ac70")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "5" "6" "10" "9" "12" "13" "4" "1" "7" "8" "14" "11")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77116,7 +76996,7 @@
 			(uuid "b2a0057a-a9aa-4b6e-8f11-c010f337fba8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/components/LM324N--3DModel-STEP-56544.STEP"
+		(model "/home/rodri/Desktop/emg-circuit-kicad/components/LM324N--3DModel-STEP-56544.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -77124,7 +77004,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -77194,12 +77074,6 @@
 		(path "/13522b78-0d10-4f34-b3ba-669c31d0a363")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77385,12 +77259,6 @@
 		(path "/8c54cfd2-cf66-4421-8f28-4d83afe980d7")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77652,12 +77520,6 @@
 		(path "/4118b322-4357-493c-a509-7d8e751d8dbb")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "5" "6" "10" "9" "12" "13" "4" "1" "7" "8" "14" "11")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77991,7 +77853,7 @@
 			(uuid "c595b22e-f4f6-4592-a0ba-f196eca42f1b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/components/LM324N--3DModel-STEP-56544.STEP"
+		(model "/home/rodri/Desktop/emg-circuit-kicad/components/LM324N--3DModel-STEP-56544.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -77999,7 +77861,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -78069,12 +77931,6 @@
 		(path "/cb3e6024-1405-4bbe-a3c9-c827cc9fee68")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78260,12 +78116,6 @@
 		(path "/eeea73c3-7a61-434d-9760-731c4cc2bdb5")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78451,12 +78301,6 @@
 		(path "/99fd50e3-9206-4351-8f83-fc8a31ffe690")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78629,12 +78473,6 @@
 		(path "/cc541ac2-dd76-4ba1-b902-0367dee35954")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "5" "6" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78898,7 +78736,7 @@
 			(uuid "26b8c3e5-4180-4f22-b57f-f2f29768beb8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/components/TP4056--3DModel-STEP-684600.STEP"
+		(model "/home/rodri/Desktop/emg-circuit-kicad/components/TP4056--3DModel-STEP-684600.STEP"
 			(offset
 				(xyz 0 0 1)
 			)
@@ -78976,12 +78814,6 @@
 		(path "/3f308302-7330-4ac5-9661-334fddbf9bfd")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79167,12 +78999,6 @@
 		(path "/6f2a1308-020d-4f1e-97d3-4e7f84bc416a")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79358,12 +79184,6 @@
 		(path "/8e2c27c9-dc36-4047-b082-930b319dc3f1")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79549,12 +79369,6 @@
 		(path "/f576d250-6045-4734-8227-b214bd80610d")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79740,12 +79554,6 @@
 		(path "/b5169ea2-cbcd-49d6-978f-7a2d583eba54")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -81272,12 +81080,6 @@
 		(path "/e6c97da3-4bb3-49d7-8810-52392ae35704")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82804,12 +82606,6 @@
 		(path "/b8c2c1a8-6e0b-442b-93cf-a99cdb29db49")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82995,12 +82791,6 @@
 		(path "/c290fcb2-3a03-4787-96d1-452df14d7968")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -84527,12 +84317,6 @@
 		(path "/1d8268d3-9604-4e4f-8fcf-01aafc3e8936")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -85998,9 +85782,9 @@
 		(uuid "e49ddcf7-7563-4168-b3f2-5bb75554b185")
 		(at 113.1 79.8025)
 		(property "Reference" "J7"
-			(at 3.251295 -6.802185 0)
+			(at -2.85 3.5 0)
 			(layer "F.SilkS")
-			(uuid "4eb5bf9a-e298-4fdd-bba5-72e340b68b11")
+			(uuid "8371b89e-f62b-44da-9632-67a970587299")
 			(effects
 				(font
 					(size 1.402717 1.402717)
@@ -86011,7 +85795,7 @@
 		(property "Value" "SJ1-3533"
 			(at 9.48158 5.997585 0)
 			(layer "F.Fab")
-			(uuid "9741105a-348f-4065-b887-23ffea9b0f7b")
+			(uuid "c238645f-044a-456d-aef9-0ada385770bc")
 			(effects
 				(font
 					(size 1.402008 1.402008)
@@ -86023,7 +85807,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08667be4-c2fe-428c-9393-e6f6c9a6b85e")
+			(uuid "bdcbce5c-2a6d-45e6-8db8-eedd56064955")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86034,7 +85818,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5432fa44-7f9c-4baa-acbe-c1a0ec3407e5")
+			(uuid "c318089a-f8d2-40eb-8069-b196eb1abc1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86174,12 +85958,6 @@
 		(path "/7cfbd8ed-a809-4324-8fe2-25e00597b307")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -86477,15 +86255,15 @@
 			(uuid "7f977057-c9ee-44de-999e-ea564169df71")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/components/SJ1-3533--3DModel-STEP-1.STEP"
+		(model "/home/rodri/Desktop/emg-circuit-kicad/components/SJ1-3533--3DModel-STEP-1.STEP"
 			(offset
-				(xyz -1 1 6.5)
+				(xyz -1 1 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 180 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -86555,12 +86333,6 @@
 		(path "/bd3a26c4-15ed-4185-ab03-b010555b2e8f")
 		(sheetname "/")
 		(sheetfile "emg-circuit-kicad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
