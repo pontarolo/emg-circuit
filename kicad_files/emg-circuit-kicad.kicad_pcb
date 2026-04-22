@@ -76526,7 +76526,7 @@
 		(uuid "7e690384-1cf4-453c-9551-b9132596f505")
 		(at 165.3068 46.6042)
 		(property "Reference" "U3"
-			(at -0.825 -11.135 0)
+			(at -6.5568 0.1458 0)
 			(layer "F.SilkS")
 			(uuid "c6689ffb-e153-4fb9-b66e-2b7b91dcb4b4")
 			(effects
@@ -76537,7 +76537,7 @@
 			)
 		)
 		(property "Value" "LM324N"
-			(at 11.875 11.135 0)
+			(at 0.1932 11.3958 0)
 			(layer "F.Fab")
 			(uuid "7cc60e78-7732-47fc-a4e3-0a7d97168f08")
 			(effects
@@ -77383,7 +77383,7 @@
 		(uuid "9616187e-8fb5-4f63-aac6-d2cf40806e64")
 		(at 178 46.6042)
 		(property "Reference" "U5"
-			(at -0.825 -11.135 0)
+			(at -6.25 0.1458 0)
 			(layer "F.SilkS")
 			(uuid "aa9c5555-2a69-4bd3-8d94-3589cac5f65a")
 			(effects
@@ -77394,7 +77394,7 @@
 			)
 		)
 		(property "Value" "LM324N"
-			(at 11.875 11.135 0)
+			(at 0 11.1458 0)
 			(layer "F.Fab")
 			(uuid "d0f45392-ad22-46d9-9478-0243abb7a930")
 			(effects
